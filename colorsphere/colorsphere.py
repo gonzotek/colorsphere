@@ -32,6 +32,7 @@ run.
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+mpl.use('tkagg')
 import numpy as np
 from math import floor, sqrt, sin, cos, atan2, acos, pi
 
